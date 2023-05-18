@@ -32,9 +32,6 @@ class AnalisadorLexico:
             ("REL_OP", r"[<>]=?|==|!="),
             ("ASSIGN", r"="),
             ("WHITESPACE", r"\s+"),
-
-            ("INTEGER", r"<integer>"),
-
         ]
         
 
