@@ -264,7 +264,7 @@ class Analisador:
         else:
             raise SyntaxError(f"Token inesperado: {self.token_atual}")
         
-codigo_fonte = """programa bola_de_gorfe
+codigo_fonte = """programa teste
 {
     var x : int;
     var y : float;
